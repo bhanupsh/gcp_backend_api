@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send(`Hello World!., Environment:  ${process.env.ENV} `);
+    res.send(`Hello World!., -- Version 2 -- Environment:  ${process.env.ENV} `);
 });
 
 export default app;
